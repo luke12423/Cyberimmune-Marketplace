@@ -107,6 +107,18 @@
 
 ![pLH1Rn9T5Ds_N_72-gF9fwwwQEh_S3C2YIGK6XWqSGK3iMreh9eOZOas_eDX1ALJ6Fx2lV_8SzxZDKD3IPTc5Zo6S-uzzzp3E-x5KJVkdxICULwBErrRaIzoAuMEPAaJFSTvBYiy2yahDkhPjwsExNJhZQvzOav1RTQQfr4x1k-3P9g0EG3sZwJwJXPwvJXHFtxr0EaZu8NaCjU](https://github.com/user-attachments/assets/5a804c77-4bf6-447b-83b3-b1db014b2dc4)
 
+### Описание действий для предотвращения нарушения ЦБ2
+Для защиты нужно внедрить CSRF-токен и установить атрибуты Same-Site, Secure, HTTPOnly для Cookies.
+
+![dP6_JiCm4CRtUmghUmTWOq3bKKpY8L9fgiG5YIbD6P3AnCB6dpT88goMDd5VuVn6VBQCg1WOKAJuShhlTz_dJ4ej2xsudXBHPQBpGepubItltIDlS7RSk9gD_nu9MOf5gGgH5odU9pI7D4kokPnfoDwvuKzN2-ZsRDsAUxTs3wWD3tYslECcCEwcUKIS_a8yOROTOtJmIrtbxjc](https://github.com/user-attachments/assets/a6d47428-0748-40d3-8aa5-4049951f93ed)
+
+### Описание действий для предотвращения нарушения ЦБ3
+
+### Описание действий для предотвращения нарушения ЦБ4
+Использование троттлинга для ограничение одновременной отправки сообщений, увеличение времени между отправками во все последующие действия.
+
+![RP71IiD048Rl-nH3xpceDm-XFafe0nRQf2HR3vuQHQi8LazUHEWRhBMX9Qdn5Vvv8sVI5IIK9R3iplVFDzb-RgFCpYPZOou6DiseXpVKQFWMUtxY1zcN-9QrGzMZAAVhSKffDempEZ5JGKU3qJHAh70lMFEDa7EftSBnFNQyR9bePYyzTDg1NgMyGOMIvuGDQbuILdZ7gWNpIUw](https://github.com/user-attachments/assets/c498864a-d194-4eb6-baf7-1f254ddbba79)
+
 
 
 
