@@ -11,6 +11,8 @@
    - [Модель угроз](#Threats)
    - [Модель нарушителя](#Intruder)
    - [Архитектура (до кибериммунизации)](#Architecture1)
+   - [Негативные сценарии](#NegativeScenarios)
+   - [Позитивные сценарии](#PositiveScenarios)
 ##
 ## <a name="Task"> Постановка задачи</a>
 Необходимо создать безопасную среду для пользования маркетплейсом. 
@@ -32,7 +34,7 @@
 
 ![ZLNBRjD05DtFLuowzu87BBgmogSCYQ4MUKIs4ubTqqGy1A9G8O4GekeVk6dSf76S_CATF-BCpJ1EhAHOQbrxvfnxpdtCz2HEL9JqsosfeiQf42yQIJUIHtH5AyhrPvhXxuHIVKwP-JwIAfRzE8XaDshY-KZqG0yROKzr4j2-qWJGbJwZEQYfVaTpVS4arKzEBUbnXNI9s](https://github.com/user-attachments/assets/790ee9a7-23f3-4b99-bdc8-05700b2a28c1)
 
-## <a name="Negative scenarios">Описание сценариев, при которых ЦБ нарушается</a>
+## <a name="NegativeScenarios">Описание сценариев, при которых ЦБ нарушается</a>
 ### Сценарий №1
 Злоумышленник может составить большой список email-адресов и пробовать перебирать их через форму «забыл пароль». Если почта, которую он ввел существует, сайт ответит, что «письмо с восстановлением пароля отправлено на почту». Если нет — «пользователь с таким email не существует». Таким образом, злоумышленник поймет, какие адреса верные и составит список пользователей, которые есть в системе. Дальше он сможет атаковать их фишинговыми рассылками или перебором паролей для их аккаунтов. 
 
@@ -65,7 +67,7 @@
 
 ![XPAzJiCm58LtFyLLMUdGT6EeoihA20nHaw4I95PgElS745AGa10xuWtI2AifIPDNk7uZpYLX085GXzhtvpldM1dFZ9-OwwjBfOud9awenozSS-aUU8l_d3EtOYlt7lapqWEAao1CQA0qzgQJgVOZWwLNpdZdLeIjacktvigbxXvdotly2dxdh2Lu7S7xGNZ2wAQFoRqekeMxOGl](https://github.com/user-attachments/assets/a5c33c5e-1be7-4c9b-8467-5703d6415705)
 
-## Описание позитивных сценариев работы
+## <a name="PositiveScenarios">Описание позитивных сценариев работы</a>
 
 ### Сценарий №1
 1. Авторизация пользователя
@@ -90,6 +92,8 @@
 3. Злоумышленник не может нанести существенный ущерб
 
 
+
+## <a name="Architecture2">Архитектура (после кибериммунизации)</a>
 
 
 
