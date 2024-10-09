@@ -43,6 +43,14 @@
 
 ![RT0zJiD040NWVaun2dKAsnr552x01H35ojx24YIhpK8TWyIFA09L6fhSm4HOCJ4iLtXp8oQ92uJGD5lCzzxkZcV1-71rUK5qaeUfvm6Mw13b5f_o90zwRl2bqs8xO3DZb_3K5zPpGavbcPVEJ8AoPwpbHk5SLpUevGwjB0uaxKdwXxpeSiGMZSmPx-XamLZX5Qi3otgM4PaybDS](https://github.com/user-attachments/assets/1bcf48d9-9906-41eb-8e2c-f79684fb3d21)
 
+### Сценарий №4
+Если количество попыток ввода кода подтверждения неограничено, злоумышленник может перебирать цифры до бесконечности, пока не подберет нужный.
+Это делается автоматически и очень быстро, особенно для 4-значных кодов — это всего 10 000 комбинаций.
+
+![LO-nJe0m54NtznKlE3l0w63mEun3GpkGA3IbEXjDr8H1DoV_WI0eek8ltFT7lWONSuVUDFVqf6KNJOYN5-T49rLi0sTunYSskSMNzFAWVSQtPi6QiUdOvzm6wmBdv9MigzgR9YhsX55k5BpMwJi6kSCYZpjI_245aQbYVMMYqqiYdn-U7WHdpuvzSSHuKTM6LtrXI4AvtzNIuuC](https://github.com/user-attachments/assets/a5105988-8c70-4c68-aaee-0760eadc3c39)
+
+### Сценарий №5
+Злоумышленник для начала проводит тестовую покупку и получает идентификатор своего заказа. Так, он понимает, как этот идентификатор формируется. Затем он отправляет запрос на получение данных о покупке, но уже с другим идентификатором и получает информацию о заказе другого пользователя. Условно его настоящий запрос выглядит так: /get_order?id=1111, где id — это номер заказа. Если его изменить: /get_order?id=1234, то можно получить чужой заказ. 
 
 
 
