@@ -22,6 +22,12 @@
 ## <a name="Intruder">Модель нарушителя</a>
 ![export (2)](https://github.com/user-attachments/assets/33a3c8c2-7659-4064-8955-39fcf3e04381)
 
+## <a name="Purposes">Цели безопасности</a>
+- Защита личной информации пользователей
+- Борьба с мошенничеством и фальсификацией
+- Обеспечение безопасности при доставке товаров
+- Защита от финансовых рисков
+
 ## <a name="Architecture1">Архитектура (До кибериммунизации)</a>
 
 ![ZLNBRjD05DtFLuowzu87BBgmogSCYQ4MUKIs4ubTqqGy1A9G8O4GekeVk6dSf76S_CATF-BCpJ1EhAHOQbrxvfnxpdtCz2HEL9JqsosfeiQf42yQIJUIHtH5AyhrPvhXxuHIVKwP-JwIAfRzE8XaDshY-KZqG0yROKzr4j2-qWJGbJwZEQYfVaTpVS4arKzEBUbnXNI9s](https://github.com/user-attachments/assets/790ee9a7-23f3-4b99-bdc8-05700b2a28c1)
@@ -59,6 +65,7 @@
 
 ![XPAzJiCm58LtFyLLMUdGT6EeoihA20nHaw4I95PgElS745AGa10xuWtI2AifIPDNk7uZpYLX085GXzhtvpldM1dFZ9-OwwjBfOud9awenozSS-aUU8l_d3EtOYlt7lapqWEAao1CQA0qzgQJgVOZWwLNpdZdLeIjacktvigbxXvdotly2dxdh2Lu7S7xGNZ2wAQFoRqekeMxOGl](https://github.com/user-attachments/assets/a5c33c5e-1be7-4c9b-8467-5703d6415705)
 
+## Описаниее позитивных сценариев работы
 
 
 
