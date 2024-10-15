@@ -47,10 +47,12 @@
 ![ROynJaCn44JxFSKgr2diaY8Avq0KrhUBBq5YEOQQ10aXKNn4mm6uG1I8Y0WnLvYz4ID1GH6vySxEsvsTBceezVhgKkIig_EY8xnWZsPt-B97U-1_YmFV3fyZ3GlDJkSbfg9ECic-wtEOLM9FsDYAu2sj7rZRFNOs_2B-3_4Y4hhQtuIQg4fsuqdsfufdRD3mhlWctcnfAvPlQ1G](https://github.com/user-attachments/assets/049957fd-080e-4b74-99a3-d7b9a9576507)
 
 ### Сценарий №3
-Злоумышленник может воспользоваться множественным СМС-запросом. 
-Если нет механизма защиты от множественных запросов, то злоумышленник может отправить запрос на СМС неограниченное количество раз. Нарушение 4 ЦБ.
+Злоумышленник выясняет номер телефона жертвы для авторизации в веб-приложении.
+Отправляет запрос на авторизацию через код из СМС. Пользуясь уязвимостью SS7, перехватывает сообщение и вводит код, как будто получил его на телефон жертвы.
+Нарушение 4 ЦБ.
 
-![RT0zJiD040NWVaun2dKAsnr552x01H35ojx24YIhpK8TWyIFA09L6fhSm4HOCJ4iLtXp8oQ92uJGD5lCzzxkZcV1-71rUK5qaeUfvm6Mw13b5f_o90zwRl2bqs8xO3DZb_3K5zPpGavbcPVEJ8AoPwpbHk5SLpUevGwjB0uaxKdwXxpeSiGMZSmPx-XamLZX5Qi3otgM4PaybDS](https://github.com/user-attachments/assets/1bcf48d9-9906-41eb-8e2c-f79684fb3d21)
+![fPBDIiD058NtynINkWxuin2w2FK1N6KfBeOcOA4_9PcwS5KhgA2Wksv4wHk4OcnfDNs5Sz_8Cw4gmPqIc9ovoVVbvZAjpDdKZNfTSzHsWrGQU469jTvZmViSkKvG-7r3R2QZB4bbaCPSzxw1ATOezGhlUgUtp0K-U2sngf2Bxk2Bs9MTD8dDa1_ij3j3stVIY8wZGAyzenCTLqJ](https://github.com/user-attachments/assets/9f71555c-9174-427c-ac1b-c7869fcd74d1)
+
 
 ### Сценарий №4
 Если количество попыток ввода кода подтверждения неограничено, злоумышленник может перебирать цифры до бесконечности, пока не подберет нужный.
