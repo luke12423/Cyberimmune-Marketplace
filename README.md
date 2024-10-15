@@ -115,9 +115,10 @@
 ![dP6_JiCm4CRtUmghUmTWOq3bKKpY8L9fgiG5YIbD6P3AnCB6dpT88goMDd5VuVn6VBQCg1WOKAJuShhlTz_dJ4ej2xsudXBHPQBpGepubItltIDlS7RSk9gD_nu9MOf5gGgH5odU9pI7D4kokPnfoDwvuKzN2-ZsRDsAUxTs3wWD3tYslECcCEwcUKIS_a8yOROTOtJmIrtbxjc](https://github.com/user-attachments/assets/a6d47428-0748-40d3-8aa5-4049951f93ed)
 
 ### Описание действий для предотвращения нарушения ЦБ3
-Использование троттлинга для ограничение одновременной отправки сообщений, увеличение времени между отправками во все последующие действия.
+Чтобы избежать рисков, связанных с уязвимостью SS7, рекомендуется использовать современные меры безопасности, в частности двухфакторную авторизацию.
 
-![RP71IiD048Rl-nH3xpceDm-XFafe0nRQf2HR3vuQHQi8LazUHEWRhBMX9Qdn5Vvv8sVI5IIK9R3iplVFDzb-RgFCpYPZOou6DiseXpVKQFWMUtxY1zcN-9QrGzMZAAVhSKffDempEZ5JGKU3qJHAh70lMFEDa7EftSBnFNQyR9bePYyzTDg1NgMyGOMIvuGDQbuILdZ7gWNpIUw](https://github.com/user-attachments/assets/c498864a-d194-4eb6-baf7-1f254ddbba79)
+![fPBBIiD068NtUOgXhWDU5a8NeJw0gop5nT04BFHIagaBLxK5AoWgRjo8qZS8mTZIslGLplz6dWcn4dKXIc7wTvhloycPD6AZ8pFej9s3fkb5gePdv5ZADMRyJf7829dzNLCwLeCuZ5Gl2hZkR807B97B66zo9PUSCwpucMDH86VjtWUnhRQYC73wl66hsUhhhb4r_z1tvS8oCf9](https://github.com/user-attachments/assets/dc031bb6-7153-477c-a036-bdfc7cc6ffdc)
+
 
 
 
