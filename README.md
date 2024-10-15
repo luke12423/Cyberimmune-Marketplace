@@ -54,7 +54,7 @@
 
 ### Сценарий №4
 Если количество попыток ввода кода подтверждения неограничено, злоумышленник может перебирать цифры до бесконечности, пока не подберет нужный.
-Это делается автоматически и очень быстро, особенно для 4-значных кодов — это всего 10 000 комбинаций. Нарушение 1 ЦБ.
+Это делается автоматически и очень быстро, особенно для 4-значных кодов — это всего 10 000 комбинаций. Нарушение 1 ЦБ. [CWE-1390: Weak Authentication](https://cwe.mitre.org/data/definitions/1390.html)
 
 ![LO-nJe0m54NtznKlE3l0w63mEun3GpkGA3IbEXjDr8H1DoV_WI0eek8ltFT7lWONSuVUDFVqf6KNJOYN5-T49rLi0sTunYSskSMNzFAWVSQtPi6QiUdOvzm6wmBdv9MigzgR9YhsX55k5BpMwJi6kSCYZpjI_245aQbYVMMYqqiYdn-U7WHdpuvzSSHuKTM6LtrXI4AvtzNIuuC](https://github.com/user-attachments/assets/a5105988-8c70-4c68-aaee-0760eadc3c39)
 
