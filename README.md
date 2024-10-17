@@ -120,6 +120,9 @@
 ![fPBBIiD068NtUOgXhWDU5a8NeJw0gop5nT04BFHIagaBLxK5AoWgRjo8qZS8mTZIslGLplz6dWcn4dKXIc7wTvhloycPD6AZ8pFej9s3fkb5gePdv5ZADMRyJf7829dzNLCwLeCuZ5Gl2hZkR807B97B66zo9PUSCwpucMDH86VjtWUnhRQYC73wl66hsUhhhb4r_z1tvS8oCf9](https://github.com/user-attachments/assets/dc031bb6-7153-477c-a036-bdfc7cc6ffdc)
 
 
+#Источники
+[Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)
+[OWASP Top-Ten](https://owasp.org/www-project-top-ten/)
 
 
 
