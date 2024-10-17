@@ -49,7 +49,7 @@
 ### Сценарий №3
 Злоумышленник выясняет номер телефона жертвы для авторизации в веб-приложении.
 Отправляет запрос на авторизацию через код из СМС. Пользуясь уязвимостью SS7, перехватывает сообщение и вводит код, как будто получил его на телефон жертвы.
-Нарушение 4 ЦБ.
+Нарушение 1 ЦБ.
 
 ![fPBDIiD058NtynINkWxuin2w2FK1N6KfBeOcOA4_9PcwS5KhgA2Wksv4wHk4OcnfDNs5Sz_8Cw4gmPqIc9ovoVVbvZAjpDdKZNfTSzHsWrGQU469jTvZmViSkKvG-7r3R2QZB4bbaCPSzxw1ATOezGhlUgUtp0K-U2sngf2Bxk2Bs9MTD8dDa1_ij3j3stVIY8wZGAyzenCTLqJ](https://github.com/user-attachments/assets/9f71555c-9174-427c-ac1b-c7869fcd74d1)
 
