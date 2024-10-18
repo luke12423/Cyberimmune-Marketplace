@@ -102,6 +102,8 @@
 
 ![nLNRRjD047tVhrZrtHBt2mzM-HIJM63HDf7Z59Mdk8ae2AG2GW8XHDG_S4FSk6bY_yBi7t5ckzauTXkP9nxYQDVdd9qvCplUxKLU6FNtzuHuteeweToXCULqfJxH3FyJIjGnfRpUaLvFzdj-A3jX6y-xeWjcq0gwta44sY_0fsh8K4ddu32_03-c9UKgXawcDNf-gny6qT4jEfz](https://github.com/user-attachments/assets/6debdfbc-eaef-420f-9bbd-6e27d88c3dd4)
 
+![diagram-export-18 10 2024-15_08_10](https://github.com/user-attachments/assets/6e50bf5f-581b-49a4-9733-3c36d82eabf9)
+
 
 ## <a name="Decision">Решение</a>
 
