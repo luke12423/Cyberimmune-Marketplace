@@ -35,6 +35,9 @@
 
 ![ZLNBRjD05DtFLuowzu87BBgmogSCYQ4MUKIs4ubTqqGy1A9G8O4GekeVk6dSf76S_CATF-BCpJ1EhAHOQbrxvfnxpdtCz2HEL9JqsosfeiQf42yQIJUIHtH5AyhrPvhXxuHIVKwP-JwIAfRzE8XaDshY-KZqG0yROKzr4j2-qWJGbJwZEQYfVaTpVS4arKzEBUbnXNI9s](https://github.com/user-attachments/assets/790ee9a7-23f3-4b99-bdc8-05700b2a28c1)
 
+![diagram-export-18 10 2024-14_56_28](https://github.com/user-attachments/assets/2dbc31de-aa87-4e87-82ea-4c78842b0650)
+
+
 ## <a name="NegativeScenarios">Описание сценариев, при которых ЦБ нарушается</a>
 ### Сценарий №1
 Злоумышленник может составить большой список email-адресов и пробовать перебирать их через форму «забыл пароль». Если почта, которую он ввел существует, сайт ответит, что «письмо с восстановлением пароля отправлено на почту». Если нет — «пользователь с таким email не существует». Таким образом, злоумышленник поймет, какие адреса верные и составит список пользователей, которые есть в системе. Дальше он сможет атаковать их фишинговыми рассылками или перебором паролей для их аккаунтов. Нарушение 1 ЦБ. [(CWE-1390: Weak Authentication)](https://cwe.mitre.org/data/definitions/1390.html)
