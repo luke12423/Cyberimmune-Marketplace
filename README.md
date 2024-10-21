@@ -67,7 +67,8 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 
 ![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/7d891fa7-d820-4a28-ab8a-281fbc654652)
 
-![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/07d60a46-9ec6-428d-83af-b1ffe7383268)
+![bLBDQjj04BxlKmpkmPTAfUtDODTrfVv0QuFRqaFTmrRQ5e4jYTqrfJd52OP0Siafnv0yWGWHKMHRUONPDygiP3r0M916iz_FwDiTAisbNYxcx6sW4maTlC0DLkOOj-RKd52TuuvMWMK7k8A3UGA938M4b_1CYf2bH8-2AEMn9l8bLfO2U4EhmblC01-eACmAI_jnZHNjPEOGire](https://github.com/user-attachments/assets/63fbad59-18ee-4ffd-b5b0-bdd45d4fb15a)
+
 
 
 
