@@ -65,8 +65,10 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 ' UNION SELECT username, password FROM users--.
 И получает список со всеми именами пользователя и пароли.
 
-![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/a2d4a6e9-c891-4304-8408-e4e5ea155bcb)
-![bPBFQjj04CRl-nI3U_2bKcbxCzXrNQb_eBN1RUcXzB2LjaLWIs9tJMbFTO8Xa5nooZ4aJo1CX1NPbbzXzeqoAraF41QasT7t_MOqkqEbkTIB-Ooz3dGYeODNkCNAdEBEd9ipYdFSqogmx01Ny6-MG2938U4vF94YP2dPeo1AUQp9V8sLjG2kQLLuXndWWOB2BB6qcrlQh34p_p6](https://github.com/user-attachments/assets/fa7d5a4f-151a-479b-ac0b-87157e9ce738)
+![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/7d891fa7-d820-4a28-ab8a-281fbc654652)
+
+![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/07d60a46-9ec6-428d-83af-b1ffe7383268)
+
 
 
 ### Сценарий №5
