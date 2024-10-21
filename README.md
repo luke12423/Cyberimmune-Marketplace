@@ -59,10 +59,10 @@
 
 
 ### Сценарий №4
-Злоумышленник использует уязвимость SQL-инъекции для получения данных из таблиц базы данных. Для этого используется ключевое слово UNION, которое позволяет выполнить дополнительный запрос SELECT и добавить его результаты к исходному запросу. Приложение выполняет следующий запрос, содержащий пользовательский ввод "Gifts":
+Злоумышленник использует уязвимость SQL-инъекции для получения данных из таблиц базы данных. Для этого используется ключевое слово UNION, которое позволяет выполнить дополнительный запрос SELECT и добавить его результаты к исходному запросу. Приложение выполняет следующий запрос, содержащий пользовательский ввод "Gifts":  
 SELECT name, description FROM products WHERE category = 'Gifts'  
-Злоумышленник добавляет в запрос:
-' UNION SELECT username, password FROM users--.
+Злоумышленник добавляет в запрос:  
+' UNION SELECT username, password FROM users--.  
 И получает список со всеми именами пользователя и пароли.
 
 ![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/7d891fa7-d820-4a28-ab8a-281fbc654652)
