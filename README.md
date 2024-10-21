@@ -59,10 +59,14 @@
 
 
 ### Сценарий №4
-Если количество попыток ввода кода подтверждения неограничено, злоумышленник может перебирать цифры до бесконечности, пока не подберет нужный.
-Это делается автоматически и очень быстро, особенно для 4-значных кодов — это всего 10 000 комбинаций. Нарушение 1 ЦБ. [CWE-1390: Weak Authentication](https://cwe.mitre.org/data/definitions/1390.html)
+Злоумышленник использует уязвимость SQL-инъекции для получения данных из таблиц базы данных. Для этого используется ключевое слово UNION, которое позволяет выполнить дополнительный запрос SELECT и добавить его результаты к исходному запросу. Приложение выполняет следующий запрос, содержащий пользовательский ввод "Gifts":
+SELECT name, description FROM products WHERE category = 'Gifts'  
+Злоумышленник добавляет в запрос:
+' UNION SELECT username, password FROM users--.
+И получает список со всеми именами пользователя и пароли.
 
-![LO-nJe0m54NtznKlE3l0w63mEun3GpkGA3IbEXjDr8H1DoV_WI0eek8ltFT7lWONSuVUDFVqf6KNJOYN5-T49rLi0sTunYSskSMNzFAWVSQtPi6QiUdOvzm6wmBdv9MigzgR9YhsX55k5BpMwJi6kSCYZpjI_245aQbYVMMYqqiYdn-U7WHdpuvzSSHuKTM6LtrXI4AvtzNIuuC](https://github.com/user-attachments/assets/a5105988-8c70-4c68-aaee-0760eadc3c39)
+![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/a2d4a6e9-c891-4304-8408-e4e5ea155bcb)
+
 
 ### Сценарий №5
 Злоумышленник для начала проводит тестовую покупку и получает идентификатор своего заказа. Так, он понимает, как этот идентификатор формируется. Затем он отправляет запрос на получение данных о покупке, но уже с другим идентификатором и получает информацию о заказе другого пользователя. Условно его настоящий запрос выглядит так: /get_order?id=1111, где id — это номер заказа. Если его изменить: /get_order?id=1234, то можно получить чужой заказ. Нарушение 1 ЦБ. [CWE-290: Authentication Bypass by Spoofing](https://cwe.mitre.org/data/definitions/290.html)
