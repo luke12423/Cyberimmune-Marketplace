@@ -48,19 +48,18 @@
 
 ## <a name="NegativeScenarios">Описание сценариев, при которых ЦБ нарушается</a>
 ### Сценарий №1
-Злоумышленник может составить большой список email-адресов и пробовать перебирать их через форму «забыл пароль». Если почта, которую он ввел существует, сайт ответит, что «письмо с восстановлением пароля отправлено на почту». Если нет — «пользователь с таким email не существует». Таким образом, злоумышленник поймет, какие адреса верные и составит список пользователей, которые есть в системе. Дальше он сможет атаковать их фишинговыми рассылками или перебором паролей для их аккаунтов. Нарушение 1 ЦБ. [(CWE-1390: Weak Authentication)](https://cwe.mitre.org/data/definitions/1390.html)
+Злоумышленник может составить большой список email-адресов и пробовать перебирать их через форму «забыл пароль». Если почта, которую он ввел существует, сайт ответит, что «письмо с восстановлением пароля отправлено на почту». Если нет — «пользователь с таким email не существует». Таким образом, злоумышленник поймет, какие адреса верные и составит список пользователей, которые есть в системе. Дальше он сможет атаковать их фишинговыми рассылками или перебором паролей для их аккаунтов. [(CWE-1390: Weak Authentication)](https://cwe.mitre.org/data/definitions/1390.html)
 
 ![VP4_JlD04CNxFSKeN_qLiJiA5Cw1AAp4HIH8Liv2dTWIVsIXX0g9KnWh4SR6oHNUt8YtybOfq3GpdlTxiq-Uh5oIkVkxMsEkfcwPoGZlw73K0ZzQwZFx0tfMWtOaoKhiM9RPBCraR2p9-NHkauKZjaEjES4rfL-ez16DRWSa2aXqXhnHV4IBWwu5UtIw5PneyQIvbWCQ1pG](https://github.com/user-attachments/assets/5b78c7cc-7854-4a9f-b524-9c4a1f8f78a9)
 
 ### Сценарий №2
-Злоумышленник может пробовать перебирать самые простые пароли для email-адресов, которые ему удалось собрать. Есть целые базы простых паролей, которые чаще всего используют люди, вроде QWERTY или 123456. Подбор происходит в автоматическом режиме и не требует усилий злоумышленника. Нарушение 1 ЦБ. [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
+Злоумышленник может пробовать перебирать самые простые пароли для email-адресов, которые ему удалось собрать. Есть целые базы простых паролей, которые чаще всего используют люди, вроде QWERTY или 123456. Подбор происходит в автоматическом режиме и не требует усилий злоумышленника. [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
 
 ![ROynJaCn44JxFSKgr2diaY8Avq0KrhUBBq5YEOQQ10aXKNn4mm6uG1I8Y0WnLvYz4ID1GH6vySxEsvsTBceezVhgKkIig_EY8xnWZsPt-B97U-1_YmFV3fyZ3GlDJkSbfg9ECic-wtEOLM9FsDYAu2sj7rZRFNOs_2B-3_4Y4hhQtuIQg4fsuqdsfufdRD3mhlWctcnfAvPlQ1G](https://github.com/user-attachments/assets/049957fd-080e-4b74-99a3-d7b9a9576507)
 
 ### Сценарий №3
 Злоумышленник выясняет номер телефона жертвы для авторизации в веб-приложении.
 Отправляет запрос на авторизацию через код из СМС. Пользуясь уязвимостью SS7, перехватывает сообщение и вводит код, как будто получил его на телефон жертвы.
-Нарушение 1 ЦБ.
 
 ![fPBDIiD058NtynINkWxuin2w2FK1N6KfBeOcOA4_9PcwS5KhgA2Wksv4wHk4OcnfDNs5Sz_8Cw4gmPqIc9ovoVVbvZAjpDdKZNfTSzHsWrGQU469jTvZmViSkKvG-7r3R2QZB4bbaCPSzxw1ATOezGhlUgUtp0K-U2sngf2Bxk2Bs9MTD8dDa1_ij3j3stVIY8wZGAyzenCTLqJ](https://github.com/user-attachments/assets/9f71555c-9174-427c-ac1b-c7869fcd74d1)
 
@@ -81,12 +80,12 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 
 
 ### Сценарий №5
-Злоумышленник для начала проводит тестовую покупку и получает идентификатор своего заказа. Так, он понимает, как этот идентификатор формируется. Затем он отправляет запрос на получение данных о покупке, но уже с другим идентификатором и получает информацию о заказе другого пользователя. Условно его настоящий запрос выглядит так: /get_order?id=1111, где id — это номер заказа. Если его изменить: /get_order?id=1234, то можно получить чужой заказ. Нарушение 1 ЦБ. [CWE-425: Direct Request ('Forced Browsing')](https://cwe.mitre.org/data/definitions/425.html)
+Злоумышленник для начала проводит тестовую покупку и получает идентификатор своего заказа. Так, он понимает, как этот идентификатор формируется. Затем он отправляет запрос на получение данных о покупке, но уже с другим идентификатором и получает информацию о заказе другого пользователя. Условно его настоящий запрос выглядит так: /get_order?id=1111, где id — это номер заказа. Если его изменить: /get_order?id=1234, то можно получить чужой заказ. [CWE-425: Direct Request ('Forced Browsing')](https://cwe.mitre.org/data/definitions/425.html)
 
 ![RP71IiD048Rl-nH3lTh3nfuAIdqEyH2Q70BQBkdgkMcA2ee5Bu87VOLO3CQqJLzXvetyDol5GXEoCpkP__ycsS74XgczkRvIwdnenobr-9LNt4ZEQtcK1-GbRt1NN7Sed93HD4wZE2Mj39J9C37Xo4BsWiRFBlesCkDIfZ97uKSohmh-L85IuT0cjw6DKLJAwEwP2Vh47pBbXfT](https://github.com/user-attachments/assets/53b0f011-15f3-4d5d-96dd-71b3cfc21de8)
 
 ### Сценарий №6
-Если пользователь залогинен в интернет-магазине со своего браузера, но продолжает серфить в интернете, заходить на разные сайты, то в какой-то момент он может зайти на сайт злоумышленника. На этом сайте может быть специальный Java Script-код, который незаметно для пользователя отправит в магазин запрос на добавление своего товара в корзину. Для магазина это выглядит так, будто пользователь сам добавляет товар. Многие люди забывают проверить корзину, кто-то просто невнимателен, поэтому просто заказывают ненужный товар, а плохие продавцы зарабатывают. Нарушение 2 ЦБ. [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)
+Если пользователь залогинен в интернет-магазине со своего браузера, но продолжает серфить в интернете, заходить на разные сайты, то в какой-то момент он может зайти на сайт злоумышленника. На этом сайте может быть специальный Java Script-код, который незаметно для пользователя отправит в магазин запрос на добавление своего товара в корзину. Для магазина это выглядит так, будто пользователь сам добавляет товар. Многие люди забывают проверить корзину, кто-то просто невнимателен, поэтому просто заказывают ненужный товар, а плохие продавцы зарабатывают. [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)
 
 ![ZP8_Jy9W4CRtzrDSS9N1FvC3mTNLKHrgsw4HMb8A9avGn6WmSJ5nCJ5-WzhO00BbAznz8v-3qXWZYI6Xxxrtp_ExkxRUZgmmwZGRvjYEWf0g_COvp-IHntYcd4ZCcSOLijhKQRiX1Q63_ptJWj2plPRbHv2zSy9JYGcw6USouBcCv1xdZ1VuJVYBavN7JICeBFP_MRo2raDT1kP](https://github.com/user-attachments/assets/87dd1694-fa97-4862-a3de-44667fb43b25)
 
