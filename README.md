@@ -153,7 +153,15 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 # Источники
 [Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)  
 [OWASP Top-Ten](https://owasp.org/www-project-top-ten/)  
-[БДУ ФСТЭК](https://bdu.fstec.ru/vul)
+[БДУ ФСТЭК](https://bdu.fstec.ru/vul)  
+[Хабр: Какие задачи решают IAM системы?](https://habr.com/ru/articles/221159/)  
+[Хабр: Всё о файлах cookie и их безопасности](https://habr.com/ru/articles/710578/)  
+[ScillFactory: XSS](https://blog.skillfactory.ru/glossary/xss/)  
+[Security Vision: Атаки на веб-системы по методологии OWASP Top 10](https://www.securityvision.ru/blog/ataki-na-veb-sistemy-po-metodologii-owasp-top-10/)  
+[GeekForGeeks: How to Prevent Broken Access Control?](https://www.geeksforgeeks.org/how-to-prevent-broken-access-control/)  
+[Хабр: Все, что нужно знать про «Broken access control](https://habr.com/ru/articles/654769/)  
+[SkillBox: OWASP Top 10: самые распространённые уязвимости веб-приложений](https://skillbox.ru/media/code/owasp-top-10-samye-rasprostranyennye-uyazvimosti-vebprilozheniy/)  
+[Хабр: SQL-инъекции](https://habr.com/ru/articles/725134/)  
 
 
 
