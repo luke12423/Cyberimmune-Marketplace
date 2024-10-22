@@ -149,7 +149,7 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 
 # Источники
 [Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)  
-[OWASP Top-Ten](https://owasp.org/www-project-top-ten/)
+[OWASP Top-Ten](https://owasp.org/www-project-top-ten/)  
 [БДУ ФСТЭК](https://bdu.fstec.ru/vul)
 
 
