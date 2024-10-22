@@ -35,7 +35,8 @@
 
 ![ZLNBRjD05DtFLuowzu87BBgmogSCYQ4MUKIs4ubTqqGy1A9G8O4GekeVk6dSf76S_CATF-BCpJ1EhAHOQbrxvfnxpdtCz2HEL9JqsosfeiQf42yQIJUIHtH5AyhrPvhXxuHIVKwP-JwIAfRzE8XaDshY-KZqG0yROKzr4j2-qWJGbJwZEQYfVaTpVS4arKzEBUbnXNI9s](https://github.com/user-attachments/assets/790ee9a7-23f3-4b99-bdc8-05700b2a28c1)
 
-![diagram-export-18 10 2024-15_15_33](https://github.com/user-attachments/assets/1902edc1-9462-4ffa-9e33-fc5e7b107cb9)
+![diagram-export-22 10 2024-17_35_54](https://github.com/user-attachments/assets/bcf48e1c-c593-4c80-af5f-9fc7b33ce336)
+
 
 
 
