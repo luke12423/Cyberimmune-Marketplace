@@ -83,7 +83,8 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 ### Сценарий №6
 Если пользователь залогинен в интернет-магазине со своего браузера, но продолжает серфить в интернете, заходить на разные сайты, то в какой-то момент он может зайти на сайт злоумышленника. На этом сайте может быть специальный Java Script-код, который незаметно для пользователя отправит в магазин запрос на добавление своего товара в корзину. Для магазина это выглядит так, будто пользователь сам добавляет товар. Многие люди забывают проверить корзину, кто-то просто невнимателен, поэтому просто заказывают ненужный товар, а плохие продавцы зарабатывают. Нарушение 2 ЦБ. [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)
 
-![ZP8_Jy9W4CRtzrDSS9N1FvC3mTNLKHrgsw4HMb8A9avGn6WmSJ5nCJ5-WzhO00BbAznz8v-3qXWZYI6Xxxrtp_ExkxRUZgmmwZGRvjYEWf0g_COvp-IHntYcd4ZCcSOLijhKQRiX1Q63_ptJWj2plPRbHv2zSy9JYGcw6USouBcCv1xdZ1VuJVYBavN7JICeBFP_MRo2raDT1kP](https://github.com/user-attachments/assets/db0bc570-99d8-4170-bec3-5e774d34fb87)
+![diagram-export-22 10 2024-19_23_31](https://github.com/user-attachments/assets/ac7febbb-b8eb-4b32-a815-553ce6054ad2)
+
 
 
 ## <a name="PositiveScenarios">Описание позитивных сценариев работы</a>
