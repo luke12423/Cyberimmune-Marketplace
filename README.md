@@ -64,7 +64,8 @@
 SELECT name, description FROM products WHERE category = 'Gifts'  
 Злоумышленник добавляет в запрос:  
 ' UNION SELECT username, password FROM users--.  
-И получает список со всеми именами пользователя и пароли.
+И получает список со всеми именами пользователя и пароли.  
+[CWE-20: Improper Input Validation](https://cwe.mitre.org/data/definitions/20.html)
 
 ![DP3DIiD0483l-nH3BxsOY7eBDDQOg0T5g8BdDLbb8Sqkkzk3dbJmf1UVGFG9Gh4ebRQlCFj6dOJaD3CmtpS_O-kuSRDfoOvofmmCy1FN-E_VyPVY76l_Wekc7W2ty5WgKAOG1lQO9axcKlFAzHGkW90vfJzO0sue-VFFk6oAxqxtX7MhqgeKdMkVfTpnMsu5YJwmfj44a09NkF9](https://github.com/user-attachments/assets/7d891fa7-d820-4a28-ab8a-281fbc654652)
 
