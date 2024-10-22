@@ -115,7 +115,8 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 
 ![nLNRRjD047tVhrZrtHBt2mzM-HIJM63HDf7Z59Mdk8ae2AG2GW8XHDG_S4FSk6bY_yBi7t5ckzauTXkP9nxYQDVdd9qvCplUxKLU6FNtzuHuteeweToXCULqfJxH3FyJIjGnfRpUaLvFzdj-A3jX6y-xeWjcq0gwta44sY_0fsh8K4ddu32_03-c9UKgXawcDNf-gny6qT4jEfz](https://github.com/user-attachments/assets/6debdfbc-eaef-420f-9bbd-6e27d88c3dd4)
 
-![diagram-export-22 10 2024-17_10_42](https://github.com/user-attachments/assets/c4b55ca6-cbb8-4e68-bf9c-3751f6054ce1)
+![diagram-export-22 10 2024-19_24_52](https://github.com/user-attachments/assets/b6752ff6-0d5e-455c-beb7-4e1b72653b32)
+
 
 
 
