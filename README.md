@@ -170,26 +170,26 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 
 
 # <a name="Sources">Источники</a>
-[Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)  
-[OWASP Top-Ten](https://owasp.org/www-project-top-ten/)  
-[БДУ ФСТЭК](https://bdu.fstec.ru/vul)  
-[Федеральный закон от 29 июля 2018 г. № 250-ФЗ "О внесении изменений в Закон Российской Федерации "О защите прав потребителей"](https://base.garant.ru/72001334/)  
-[Федеральный закон от 28 декабря 2009 г. № 381-ФЗ "Об основах государственного регулирования торговой деятельности в Российской Федерации"](https://base.garant.ru/12171992/)  
-[Закон РФ от 7 февраля 1992 г. № 2300-I "О защите прав потребителей"](https://base.garant.ru/10106035/)  
-[МЕТОДИЧЕСКИЕ РЕКОМЕНДАЦИИ
+- [Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)  
+- [OWASP Top-Ten](https://owasp.org/www-project-top-ten/)  
+- [БДУ ФСТЭК](https://bdu.fstec.ru/vul)  
+- [Федеральный закон от 29 июля 2018 г. № 250-ФЗ "О внесении изменений в Закон Российской Федерации "О защите прав потребителей"](https://base.garant.ru/72001334/)  
+- [Федеральный закон от 28 декабря 2009 г. № 381-ФЗ "Об основах государственного регулирования торговой деятельности в Российской Федерации"](https://base.garant.ru/12171992/)  
+- [Закон РФ от 7 февраля 1992 г. № 2300-I "О защите прав потребителей"](https://base.garant.ru/10106035/)  
+- [МЕТОДИЧЕСКИЕ РЕКОМЕНДАЦИИ
 по разработке нормативных правовых актов, определяющих угрозы
 безопасности персональных данных, актуальные при обработке
 персональных данных в информационных системах персональных
 данных, эксплуатируемых при осуществлении соответствующих видов
 деятельности](http://www.fsb.ru/files/PDF/Metodicheskie_recomendacii.pdf)  
-[Методический документ. Методика оценки угроз безопасности информации (утв. ФСТЭК России 05.02.2021)](https://sudact.ru/law/metodicheskii-dokument-metodika-otsenki-ugroz-bezopasnosti-informatsii/)  
-[Хабр: Какие задачи решают IAM системы?](https://habr.com/ru/articles/221159/)  
-[Хабр: Всё о файлах cookie и их безопасности](https://habr.com/ru/articles/710578/)  
-[SkillFactory: XSS](https://blog.skillfactory.ru/glossary/xss/)  
-[Security Vision: Атаки на веб-системы по методологии OWASP Top 10](https://www.securityvision.ru/blog/ataki-na-veb-sistemy-po-metodologii-owasp-top-10/)  
-[GeekForGeeks: How to Prevent Broken Access Control?](https://www.geeksforgeeks.org/how-to-prevent-broken-access-control/)  
-[Хабр: Все, что нужно знать про «Broken access control](https://habr.com/ru/articles/654769/)  
-[SkillBox: OWASP Top 10: самые распространённые уязвимости веб-приложений](https://skillbox.ru/media/code/owasp-top-10-samye-rasprostranyennye-uyazvimosti-vebprilozheniy/)  
-[Хабр: SQL-инъекции](https://habr.com/ru/articles/725134/)  
+- [Методический документ. Методика оценки угроз безопасности информации (утв. ФСТЭК России 05.02.2021)](https://sudact.ru/law/metodicheskii-dokument-metodika-otsenki-ugroz-bezopasnosti-informatsii/)  
+- [Хабр: Какие задачи решают IAM системы?](https://habr.com/ru/articles/221159/)  
+- [Хабр: Всё о файлах cookie и их безопасности](https://habr.com/ru/articles/710578/)  
+- [SkillFactory: XSS](https://blog.skillfactory.ru/glossary/xss/)  
+- [Security Vision: Атаки на веб-системы по методологии OWASP Top 10](https://www.securityvision.ru/blog/ataki-na-veb-sistemy-po-metodologii-owasp-top-10/)  
+- [GeekForGeeks: How to Prevent Broken Access Control?](https://www.geeksforgeeks.org/how-to-prevent-broken-access-control/)  
+- [Хабр: Все, что нужно знать про «Broken access control](https://habr.com/ru/articles/654769/)  
+- [SkillBox: OWASP Top 10: самые распространённые уязвимости веб-приложений](https://skillbox.ru/media/code/owasp-top-10-samye-rasprostranyennye-uyazvimosti-vebprilozheniy/)  
+- [Хабр: SQL-инъекции](https://habr.com/ru/articles/725134/)  
 
 
