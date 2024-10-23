@@ -189,6 +189,6 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 безопасности персональных данных, актуальные при обработке
 персональных данных в информационных системах персональных
 данных, эксплуатируемых при осуществлении соответствующих видов
-деятельности](http://www.fsb.ru/files/PDF/Metodicheskie_recomendacii.pdf)
-[Методический документ. Методика оценки угроз безопасности информации (утв. ФСТЭК России 05.02.2021)](https://sudact.ru/law/metodicheskii-dokument-metodika-otsenki-ugroz-bezopasnosti-informatsii/)    
+деятельности](http://www.fsb.ru/files/PDF/Metodicheskie_recomendacii.pdf)  
+[Методический документ. Методика оценки угроз безопасности информации (утв. ФСТЭК России 05.02.2021)](https://sudact.ru/law/metodicheskii-dokument-metodika-otsenki-ugroz-bezopasnosti-informatsii/)  
 
