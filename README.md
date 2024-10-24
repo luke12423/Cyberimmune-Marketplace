@@ -173,7 +173,8 @@ SELECT name, description FROM products WHERE category = 'Gifts'
 # <a name="Sources">Использованная литература</a>
 - [Common Weakness Enumeratiion](https://cwe.mitre.org/index.html)  
 - [OWASP Top-Ten](https://owasp.org/www-project-top-ten/)  
-- [БДУ ФСТЭК](https://bdu.fstec.ru/vul)  
+- [БДУ ФСТЭК](https://bdu.fstec.ru/vul)
+- [Федеральный закон "О персональных данных" от 27.07.2006 N 152-Ф](https://www.consultant.ru/document/cons_doc_LAW_61801/)  
 - [Федеральный закон от 29 июля 2018 г. № 250-ФЗ "О внесении изменений в Закон Российской Федерации "О защите прав потребителей"](https://base.garant.ru/72001334/)  
 - [Федеральный закон от 28 декабря 2009 г. № 381-ФЗ "Об основах государственного регулирования торговой деятельности в Российской Федерации"](https://base.garant.ru/12171992/)  
 - [Закон РФ от 7 февраля 1992 г. № 2300-I "О защите прав потребителей"](https://base.garant.ru/10106035/)  
